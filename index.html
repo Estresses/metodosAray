@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Métodos Aray</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Métodos Aray</h1>
+            <div class="metodo">
+                <h3 class="metodo-nome">Function</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+                        <h5>
+                            <p class="subtitulo">Chama a função que calculará uma divisão</p>
+                        </h5>
+                        <form>
+                            <label>Dividendo</label>
+                            <input type="number" id="dividendo">
+                            <label>Divisor</label>
+                            <input type="number" id="divisor">
+                        </form>
+                        <button onclick="calcularDivisao()">Calcular</button>
+                        <p class="resultado" id="demo"></p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="metodo">
+                <h3 class="metodo-nome">Object</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+
+                        <h5>
+                            <p class="subtitulo">Fazendo uso do método Object juntarei seu nome e sobrenome.</p>
+                        </h5>
+                        <form>
+                            <label>Nome</label>
+                            <input type="text" id="nome">
+                            <label>Sobrenome</label>
+                            <input type="text" id="sobrenome">
+                        </form>
+                        <button onclick="NomeSobrenome()">Enviar</button>
+                        <p class="resultado" id="demo2"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metodo">
+                <h3 class="metodo-nome">Map</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+
+                        <h5>
+                            <p class="subtitulo">Multiplica todos os números adicionados por 10, utilizando o método
+                                Map. Por favor, separar os números por vírgula.</p>
+                        </h5>
+                        <form>
+                            <input id="numeros" type="text">
+                        </form>
+                        <button onclick="multiplicar()">Enviar</button>
+                        <p class="resultado" id="demo3"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="metodo">
+                <h3 class="metodo-nome">ForEach</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+
+                        <h5>
+                            <p class="subtitulo">Adiciona 10 para cada número adicionado usando o método Foreach.
+                                Adicione separando os números por vírgula.</p>
+                        </h5>
+                        <form>
+                            <input id="numeros2" type="text">
+                        </form>
+                        <button onclick="somarDez()">Enviar</button>
+                        <p class="resultado" id="demo4"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metodo">
+                <h3 class="metodo-nome">Find</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+                        <h5>
+                            <p class="subtitulo">Mostra o primeiro elemento do Array que é maior que 18.</p>
+                        </h5>
+                        <form>
+                            <input id="idades" type="text">
+                        </form>
+                        <button onclick="encontrarMaiorIdade()">Encontrar</button>
+                        <p class="resultado" id="demo5"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="metodo">
+                <h3 class="metodo-nome">Filter</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+                        <h5>
+                            <p class="subtitulo">Filtra as idades maiores ou iguais a 18 com o método Filter.</p>
+                        </h5>
+                        <form>
+                            <input id="idades2" type="text">
+                        </form>
+                        <button onclick="filtrarIdades()">Filtrar</button>
+                        <button onclick="verjs()">Ver JS</button>
+                        <p class="resultado" id="demo6"></p>
+                        <p id="js"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="metodo">
+                <h3 class="metodo-nome">Reduce</h3>
+                <div class="resposta">
+                    <div class="conteudo-resposta">
+                        <h5>
+                            <p class="subtitulo">Subtraia os números no array, começando pela esquerda:</p>
+                        </h5>
+                        <form>
+                            <input id="numeros3" type="text">
+                        </form>
+                        <button onclick="subtrairNumeros()">Subtrair</button>
+                        <p class="resultado" id="demo7"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>Desenvolvido por Ester Vitória</footer>
+</body>
+
+</html>
+
+<!--Function (Asafe, Gleibson, Ulisses)
+
+Objects (Edson, Hayfra, )
+
+Map (Elane, Kayo,)
+
+ForEach (Aime, Leonardo)
+
+Find (Emmanuele, Raquel,)
+
+Filter (Ester, Roberto,)
+
+Reduce ( Ezequias, Stefani)-->
